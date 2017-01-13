@@ -15,5 +15,8 @@
   "license": "MIT",
   "devDependencies": {
     "eslint": "^3.10.2"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
   }
 }
