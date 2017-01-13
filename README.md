@@ -7,6 +7,11 @@
 - lightweight solution
 
 
+## Installation
+
+`npm install with-observable --save`
+
+
 ## Usage
 
 

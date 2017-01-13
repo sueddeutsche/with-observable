@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@stash-intern.swmh.de/riafw/szig-with-observable.git"
+    "url": "https://github.com/sueddeutsche/with-observable.git"
   },
   "keywords": [],
   "author": "",
