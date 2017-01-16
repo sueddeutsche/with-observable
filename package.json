@@ -1,6 +1,6 @@
 {
   "name": "with-observable",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lightweight observable mixin",
   "main": "index.js",
   "scripts": {
@@ -8,12 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@stash-intern.swmh.de/riafw/szig-with-observable.git"
+    "url": "https://github.com/sueddeutsche/with-observable.git"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
     "eslint": "^3.10.2"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
   }
 }
