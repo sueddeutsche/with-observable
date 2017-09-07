@@ -49,6 +49,9 @@ myObject.notify("event_name", "and", "params");
 // contains callbacks by events
 myObject.observers
 
+// remove observable
+withObservable.dispose.call(myObject);
+
 ```
 
 
