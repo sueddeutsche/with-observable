@@ -35,6 +35,11 @@ myObject.addObserver("event_name", function () {
 	// do something, will never be called again
 });
 
+// prioritize an event listener (gets executed first)
+myObject.addObserver("event_name", function () {
+	// do something
+}, true);
+
 // stop observing given callback
 myObject.addObserver("event_name", callback);
 
