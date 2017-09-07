@@ -26,8 +26,11 @@ function addObserver(event, observer, prioritize) {
     if (this.observers[event] == null) {
         throw new Error("Invalid event " + event + " for observable");
     } else if (typeof observer === "function") {
-        if (prioritize) this.observers[event].unshift(observer);
-        else this.observers[event].push(observer);
+        if (prioritize) {
+            this.observers[event].unshift(observer);
+        } else {
+            this.observers[event].push(observer);
+        }
     }
 
     return this;
